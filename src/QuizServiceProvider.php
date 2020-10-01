@@ -13,9 +13,13 @@ class QuizServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__.'/../migrations');
-
         if ($this->app->runningInConsole()) {
+            $this->loadMigrationsFrom(__DIR__.'/../migrations');
+
+            $this->publishes([
+                __DIR__.'/../migrations/' => $this->app->databasePath('migrations'),
+            ], 'laravelquiz.migrations');
+            
             $this->publishes([
                 __DIR__.'/../config/quiz.php' => config_path('quiz.php'),
             ], 'laravelquiz.config');
