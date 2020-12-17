@@ -25,21 +25,21 @@
   },
   "autoload": {
     "psr-4": {
-      "Leobeal\\LaravelQuiz\\": "src/"
+      "Leobeal\\Laravel\\Quiz\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Leobeal\\LaravelQuiz\\Tests\\": "tests"
+      "Leobeal\\Laravel\\Quiz\\Tests\\": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Leobeal\\LaravelQuiz\\QuizServiceProvider"
+        "Leobeal\\Laravel\\Quiz\\QuizServiceProvider"
       ],
       "aliases": {
-        "LaravelQuiz": "Leobeal\\LaravelQuiz\\Facades\\LaravelQuiz"
+        "LaravelQuiz": "Leobeal\\Laravel\\Quiz\\Facades\\Quiz"
       }
     }
   }

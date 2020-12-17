@@ -10,7 +10,7 @@ return [
     | new model which extends from Quiz::class
     |
     */
-    'model' => \Leobeal\LaravelQuiz\Quiz::class,
+    'model' => \Leobeal\Laravel\Quiz\Model\Quiz::class,
 
     /*
     |--------------------------------------------------------------------------

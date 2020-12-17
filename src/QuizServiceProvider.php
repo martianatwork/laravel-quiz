@@ -1,6 +1,6 @@
 <?php
 
-namespace Leobeal\LaravelQuiz;
+namespace Leobeal\Laravel\Quiz;
 
 use Illuminate\Support\ServiceProvider;
 

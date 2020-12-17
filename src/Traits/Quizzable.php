@@ -1,6 +1,6 @@
 <?php
 
-namespace Leobeal\LaravelQuiz\Traits;
+namespace Leobeal\Laravel\Quiz\Traits;
 
 use Illuminate\Database\Eloquent\Relations\HasMany;
 

@@ -22,7 +22,7 @@ composer require leobeal/laravel-quiz
 You can publish the config with:
 
 ```bash
-php artisan vendor:publish --provider="Leobeal\LaravelQuiz\QuizServiceProvider"
+php artisan vendor:publish --provider="Leobeal\Laravel\Quiz\QuizServiceProvider"
 ```
 
 Change `config/quiz.php` according to your needs.
@@ -39,7 +39,7 @@ Add the Quizzable Trait to your model
 
 >```php
 >use Illuminate\Database\Eloquent\Model;
->use Leobeal\LaravelQuiz\Model\Quizzable;
+>use Leobeal\Laravel\Quiz\Model\Quizzable;
 >
 >class Course extends Model
 >{

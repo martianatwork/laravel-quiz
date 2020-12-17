@@ -1,6 +1,6 @@
 <?php
 
-namespace Leobeal\LaravelQuiz\Facades;
+namespace Leobeal\Laravel\Quiz\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
